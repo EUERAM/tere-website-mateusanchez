@@ -124,3 +124,131 @@ header a{
     grid-template-columns: repeat(3, 1fr);
     gap:40px;
 }
+
+/* Secció Link */
+.link {
+    padding: 80px 0;
+    background-color: var(--background);
+}
+
+.link .description-hero {
+	color: var(--white);
+	margin: 0;
+	flex: 1;
+	max-width: 25%;
+}
+
+.container-link {
+    width: 1200px;
+    margin: auto;
+    background-color: var(--green);
+    border-radius: 16px;
+    padding: 60px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+	gap: 40px;
+}
+
+.container-link .description-hero {
+    color: var(--white);
+    margin: 0;
+    flex: 1;
+}
+
+.input-group {
+    display: flex;
+    gap: 15px;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.input-group input {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    width: 280px;
+    font-family: "Inter";
+}
+
+.btn-link {
+    padding: 12px 30px;
+    background-color: var(--dark-gray);
+    color: var(--white);
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Inter";
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-link:hover {
+    background-color: var(--black);
+}
+
+/* Secció Hero */
+.hero {
+	padding: 80px 0;
+	background-color: var(--background);
+}
+.hero-container {
+	width: 1200px;
+	margin: 0 auto;
+}
+.hero-columns{
+	display: flex;
+	gap: 40px;
+	align-items: center;
+}
+.hero-left{
+	flex: 1;
+}
+.hero-right{
+	flex: 1;
+	display: flex;
+	justify-content: center;
+}
+.hero-title{
+	font-family: "Inter";
+	font-size: 56px;
+	font-weight: 900;
+	line-height: 1.0;
+	margin: 0 0 20px;
+}
+.hero-subtitle{
+	font-family: "Inter";
+	font-size: 18px;
+	font-weight: 400;
+	color: var(--dark-gray);
+	margin: 0 0 24px;
+	max-width: 520px;
+}
+.hero-buttons{
+	display: flex;
+	gap: 16px;
+}
+.btn-hero{
+	display: inline-flex;
+	align-items: center;
+	gap: 10px;
+	background-color: var(--dark-gray);
+	color: var(--white);
+	border: none;
+	border-radius: 8px;
+	padding: 12px 20px;
+	font-weight: 700;
+	cursor: pointer;
+}
+.btn-hero img{
+	width: 20px;
+	height: auto;
+	display: block;
+}
+.hero-right img{
+	max-width: 100%;
+	height: auto;
+	border-radius: 8px;
+}
